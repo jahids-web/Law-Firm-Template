@@ -662,123 +662,30 @@ ol {
 /* our services section end */
 
 /* footer css start */
-#footer_banner {
+/*Contact part start*/
+#footer {
     background-image: url(../img/footer/footer-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 500p x;
+    padding: 50px 0;
     position: relative;
     z-index: 1;
-    padding-top: 36px;
 }
 
-.foo_left_logo{
-    margin-bottom: 24px;
-}
-.foo_left_content{
-    margin-bottom: 12px;
-    font-family: 'Times New Roman';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 23px;
-    color: #FFFFFF;
-    text-align: justify;
-
-}
-
-.foo_left_icon button {
-    background-color: #ffffff; /* Blue background */
-    border: none; /* Remove borders */
-    color: #046245; /* White text */
-    font-size: 12px; /* Set a font size */
-    cursor: pointer; /* Mouse pointer on hover */
-    border-radius: 16px;
-}
-  
-.foo_left_icon button:hover {
-    background-color: #DC940F;
-}
-
-.foo_middle_title {
-    margin: 35px 0px 80px 35px;
-}
-
-.foo_middle_links{
-    margin: 0px 0px 0px 50px;
-    color: white;
-    font-size: 13px;
+#footer:after {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    left: 0;
+    top: 0;
+    z-index: -1;
 }
 
 
-.foo_middle_links ul.a{
-    list-style-type: circle;
-}
 
-.foo_middle_links a{
-    color: white;
-}
-
-.foo_middle_links a:hover{
-    color: #DC940F;
-}
-
-.foo_middle_title h6{
-    font-family: 'Times New Roman';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 96.02%;
-    letter-spacing: 0.01em;
-    color: #FFFFFF;
-}
-
-.foo_right_title {
-    margin: 35px 0px 80px 0px;
-}
-
-.foo_right_title h6{
-    font-family: 'Times New Roman';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 96.02%;
-    letter-spacing: 0.01em;
-    color: #FFFFFF;
-}
-
-.foo_right_content {
-    /* margin: 0px 0px 0px 12px; */
-    color: white;
-    font-size: 13px;
-}
-
-
-.foo_right_content p {
-    margin-bottom: 10px;
-    color: white;
-    font-size: 14px;
-}
-
-
-.foo_right_content button {
-    background-color: #ffffff;
-    border: none;
-    color: #046245;
-    font-size: 13px;
-    cursor:auto;
-    border-radius: 16px;
-}
-
-.foo_copyright p{
-    font-size: 14px;
-    padding-top: 8%;
-    color: #FFFFFF;
-}
-
-.foo_copyright span{
-    color: #DC940F;
-}
+/*Contact part end*/
 
 
 /* footer css end */
