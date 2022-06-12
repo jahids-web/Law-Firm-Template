@@ -90,31 +90,6 @@ ol {
    color: #ff9933;
    
 }
-/* .namber p {
-    color: #fff;
-    background-color: #ff9933;
-    padding: 23px 60px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 600;
-    font-size: 16px;
-    clip-path: polygon(10% 0, 100% 0, 100% 100%, 0% 100%);
-} */
-
-/*mamu*/
-
-/*logo*/
-/* .navbar-light .navbar-brand {
-    color: #ff9933;
-    font-size: 40px;
-    font-weight: 600;
-    font-family: 'Open Sans', sans-serif;
-}
-
-.navbar-light .navbar-brand:hover {
-    color: #ff9933;
-} */
-
-/*logo*/
 
 /*navbar_end*/
 
@@ -130,19 +105,21 @@ ol {
 	background-size: cover;
 	height: 500px;
 	position: relative;
-	z-index: 1;
 	padding: 15px;
 }
 
-#why_choose_us_col1:after {
-    content: '';
+.why_choose_us_col1::after {
     position: absolute;
+    content: '';
     height: 100%;
-    width: 120%;
-    background-image: linear-gradient(red, yellow);
-    right:32%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.1);
     top: 0;
+    left: 0;
+    right: 0;
     z-index: -1;
+
+ 
 }
 
 .why_choose_us_col1 h5 {
@@ -161,6 +138,7 @@ ol {
 	font-style: normal;
 	font-weight: 700;
 	font-size: 18px;
+    position: relative;
 	line-height: 138.52%;
 	color: #FFFFFF;
 	padding: 3px 12px;
@@ -172,6 +150,7 @@ ol {
 
 .why_choose_us_title p {
 	margin-bottom: 24px;
+    position: relative;
 	font-family: 'Times New Roman';
 	font-style: normal;
 	font-weight: 400;
@@ -179,7 +158,18 @@ ol {
 	line-height: 40px;
 	color: #333333;
 }
-
+.why_choose_us_title p::after{
+    position: absolute;
+    content: "";
+    height: 0px;
+    width: 20%;
+    left: 0%;
+    top: 130%;
+    border-bottom: 2px solid #ff9933;
+    border-radius: 2px;
+    margin-bottom: 15px;
+    
+}
 .why_choose_us_title h4{
     font-family: 'Times New Roman';
     font-style: normal;
@@ -355,7 +345,7 @@ ol {
     font-family: 'Times New Roman';
     font-style: normal;
     font-weight: 700;
-    font-size: 70px;
+    font-size: 60px;
     line-height: 127.02%;
     letter-spacing: 0.04em;
     color: #FFFFFF;
@@ -367,9 +357,9 @@ ol {
     content: '';
     position: absolute;
     height: 100%;
-    width: 120%;
+    width: 150%;
     background-color: rgba(0, 0, 0, 0.282);
-    right:32%;
+    right:40%;
     top: 0;
     z-index: -1;
 }
@@ -377,7 +367,7 @@ ol {
     font-family: 'Times New Roman';
     font-style: normal;
     font-weight: 400;
-    font-size: 32px;
+    font-size: 25px;
     line-height: 142.02%;
     letter-spacing: 0.05em;
     color: #FFFFFF;
@@ -399,7 +389,7 @@ ol {
     font-family: 'Times New Roman';
     font-style: normal;
     font-weight: 700;
-    font-size: 32px;
+    font-size: 26px;
     line-height: 109.52%;
     color: #FFFFFF;
 
