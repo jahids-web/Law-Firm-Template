@@ -652,8 +652,24 @@ ol {
     background-color: rgb(255, 255, 255);
     box-shadow: 0px 4px 4px 4px rgb(3 15 44 / 10%);
     box-sizing: border-box;
-    
+    padding: 35px;
 }
+
+.feedback span{
+    color: #DC940F;
+}
+
+.feedback h4 {
+	font-family: 'Arial';
+	font-style: normal;
+	font-weight: 900;
+	font-size: 25px;
+	line-height: 125.52%;
+	text-align: center;
+	color: #046245;
+	margin-bottom: 15px;
+}
+
 .feedback img {
     border-radius: 4px;
     background-color: rgb(255, 255, 255);
@@ -665,11 +681,13 @@ ol {
     margin-bottom: 25px;
 }
 .feedback p{
-    font-size: 15px;
- 
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 138.52%;
     text-align: center;
     color: #828282;
-    padding: 29px 0px 30px 0px;
 }
 .feedback2{
     margin-top: 25px;
@@ -699,6 +717,56 @@ ol {
     z-index: -1;
 }
 
+.copy_logo{
+    margin-bottom: 22px;
+}
+
+.copy_info p{
+    color: #FFFFFF;
+    text-align: justify;
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 25px;
+}
+
+.copy_icon{
+    margin-top: 31px;
+}
+
+.copy_icon button {
+	background-color: #ffffff;
+	border: none;
+	color: #046245;
+	font-size: 19px;
+	cursor: pointer;
+	/* border-radius: 16px; */
+	margin-right: 8px;
+}
+  
+.copy_icon button:hover {
+    background-color: #DC940F;
+}
+
+.copy_right{
+    margin-top: 4%;
+}
+
+.copy_text p {
+	font-family: 'Times New Roman';
+	font-style: normal;
+	font-size: 20px;
+	letter-spacing: 0.01em;
+	color: #FFFFFF;
+}
+
+.copy_text span{
+    color: #DC940F;
+}
+.contact_text{
+    display:inline-block;
+}
 
 
 /*Contact part end*/
