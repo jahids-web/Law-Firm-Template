@@ -1,0 +1,87 @@
+@media (max-width: 575.98px) { 
+
+.low_nav img {
+	height: 92px;
+}
+
+.navbar-light .navbar-toggler {
+	color: #fff;
+	border-color: rgba(255, 255, 255, 0.1);
+}
+.Banner_text h3 {
+	color: #DC940F;
+	font-family: 'Times New Roman';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 36px;
+	margin-bottom: 15px;
+}
+.over_text h2 {
+	font-family: 'Times New Roman';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 127.02%;
+	letter-spacing: 0.04em;
+	color: #FFFFFF;
+	position: relative;
+	z-index: 1;
+}
+#banner_full {
+	background-image: url(../img/law-banner.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 546px;
+	position: relative;
+	z-index: 1;
+}
+.Banner_text p {
+	font-family: 'Times New Roman';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 142.02%;
+	letter-spacing: 0.05em;
+	color: #FFFFFF;
+	margin-top: 10px;
+}
+.Banner_text h1 {
+	font-family: 'Times New Roman';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 28px;
+	line-height: 111.52%;
+	color: #FFFFFF;
+	margin-bottom: 15px;
+	margin-top: 25%;
+}
+.low_button h4 {
+	font-family: 'Times New Roman';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 19px;
+	line-height: 89.52%;
+	color: #FFFFFF;
+}
+/* end */
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+ }
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+ }
+
+
+@media (min-width: 1200px) { 
+
+ }
