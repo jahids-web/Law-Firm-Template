@@ -1,0 +1,469 @@
+@media (max-width: 575.98px) { 
+
+.low_nav img {
+	height: 63px;
+	width: 87px;
+}
+
+.navbar-light .navbar-toggler {
+	color: #fff;
+	border-color: rgba(255, 255, 255, 0.1);
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    margin-right: 15px;
+    background-color: rgb(27 23 23 / 92%);
+    text-align: center;
+    margin-left: 13px;
+}
+.Banner_text h1 {
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-size: 21px;
+    line-height: 111.52%;
+    color: #FFFFFF;
+    margin-bottom: 3px;
+    margin-top: 20%;
+    text-align: center;
+}
+.Banner_text h3 {
+    color: #DC940F;
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.Banner_text p {
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 142.02%;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    margin-top: 15px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.over_text h2 {
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 127.02%;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+
+.over_text h2:after {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 151%;
+    background-color: rgb(0 0 0 / 48%);
+    right: -4%;
+    top: 0;
+    z-index: -1;
+}
+
+#banner_full {
+    background-image: url(../img/law-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 425px;
+    position: relative;
+    z-index: 1;
+}
+
+#banner_full:after {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(90deg, rgb(0 0 0 / 78%) 22.01%, rgb(0 94 76 / 35%) 83.89%);
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+
+.low_button{
+	text-align: center;
+}
+
+.low_button a {
+    border: 2px solid #DC940F;
+    border-radius: 5px;
+    display: inline-block;
+    text-align: left;
+    color: #fff;
+    padding: 9px 13px;
+    background-color: #DC940F;
+    margin-top: 4%;
+}
+
+.low_button h4 {
+	font-family: 'Times New Roman';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 19px;
+	line-height: 89.52%;
+	color: #FFFFFF;
+}
+
+.aboutus {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.aboutcol{
+	padding-bottom: 4%;
+}
+
+.aboutus p {
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 40px;
+    color: #046245;
+    position: relative;
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+.aboutus p::after {
+    position: absolute;
+    content: "";
+    height: 0px;
+    width: 55%;
+    left: 23%;
+    top: 95%;
+    border-bottom: 1px solid #ff9933;
+    border-radius: 2px;
+    margin-bottom: 15px;
+}
+
+.aboutus h4 {
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 27px;
+    color: #4F4F4F;
+    text-align: center;
+}
+
+.social_link_khairul_alam {
+    margin-top: 18px;
+}
+
+.social_link_khairul_alam button {
+    border-radius: inherit;
+    -moz-box-shadow: 0 0 10px #cccccc;
+    -webkit-box-shadow: 0 0 10px #cccccc;
+    -o-box-shadow: 0 0 10px #cccccc;
+    box-shadow: 0px 0 16px #ccc;
+    color: #046245;
+    display: inline-block;
+    font-size: 18px;
+    height: 40px;
+    position: relative;
+    text-align: center;
+    width: 40px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    border-radius: 7px;
+    margin: 4px;
+}
+
+.about_khairul_alam h5 {
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;
+    color: #333333;
+}
+
+.why_choose_us_content_list p {
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 179.52%;
+    color: #828282;
+    background-color: #f1f1f1;
+    text-align: center;
+    border: 1px solid white;
+}
+
+.why_choose_us_content_list i {
+    /* color: #046245; */
+    display: none;
+}
+
+.ourservices_title p {
+    position: relative;
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 40px;
+    color: #046245;
+    text-align: center;
+}
+
+.ourservices_title p::after {
+    position: absolute;
+    content: "";
+    height: 0px;
+    width: 29%;
+    left: 36%;
+    top: 117%;
+    border-bottom: 1px solid #ff9933;
+    border-radius: 2px;
+    margin-bottom: 15px;
+}
+
+.ourservices_title h4 {
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 40px;
+    color: #4F4F4F;
+    margin-top: 20px;
+    text-align: center;
+}
+.ourservices_title h5 {
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 17px;
+    color: #4F4F4F;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.feedbackcol{
+	padding-bottom: 10px;
+}
+
+.feedback h4 {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 125.52%;
+    text-align: center;
+    color: #046245;
+    margin-bottom: 15px;
+}
+
+.feedback p {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 138.52%;
+    text-align: center;
+    color: #828282;
+}
+
+.feedback2 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.feedback img {
+    border-radius: 4px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 4px 4px 4px rgb(3 15 44 / 10%);
+    box-sizing: border-box;
+    width: 40px;
+    height: 40px;
+    margin-top: 12px;
+    margin-bottom: 25px;
+}
+
+
+.why_choose_us_col1 h5 {
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 138.52%;
+    color: #FFFFFF;
+    padding: 11px;
+    margin-bottom: 7px;
+    text-align: center;
+}
+
+.progress {
+    display: -ms-flexbox;
+    display: flex;
+    height: 0.5rem;
+    overflow: hidden;
+    font-size: 0.75rem;
+    background-color: #D9D9D9;
+    border-radius: 1.25rem;
+    margin: 11px;
+}
+
+.why_choose_us_col1 p {
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    position: relative;
+    line-height: 138.52%;
+    color: #FFFFFF;
+    padding: 3px 12px;
+}
+
+.why_choose_us_col1 {
+    background-image: url(../img/why-choose-us/why-choose-us-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 314px;
+    position: relative;
+    padding: 15px;
+    z-index: 1;
+}
+
+.why_choose_us_col1::after {
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0 0 0 / 51%);
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.why_choose_us_title p {
+    margin-bottom: 24px;
+    position: relative;
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 40px;
+    color: #046245;
+    text-align: center;
+    margin-top: 22px;
+}
+
+.why_choose_us_title p::after {
+    position: absolute;
+    content: "";
+    height: 0px;
+    width: 34%;
+    left: 33%;
+    top: 105%;
+    border-bottom: 1px solid #ff9933;
+    border-radius: 2px;
+    margin-bottom: 15px;
+}
+
+.why_choose_us_title h4 {
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23px;
+    color: #4F4F4F;
+    text-align: center;
+}
+
+.why_choose_us_content_title p {
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 114.52%;
+    color: #828282;
+    text-align: center;
+}
+
+.law{
+	text-align: center;
+}
+
+.law a {
+    border: 2px solid #DC940F;
+    border-radius: 5px;
+    display: inline-block;
+    text-align: left;
+    color: #fff;
+    padding: 6px 10px;
+    background-color: #DC940F;
+    margin-top: 4%;
+}
+
+.law h4 {
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 109.52%;
+    color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* end */
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+ }
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+ }
+
+
+@media (min-width: 1200px) { 
+
+ }
